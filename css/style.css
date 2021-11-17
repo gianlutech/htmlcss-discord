@@ -7,10 +7,24 @@
 }
 body{
     font-family: 'Whitney', 'Helvetica Neue', 'Helvetica','Arial', 'sans-serif';
+    
 }
 header{
     background-color: #3161E0;
     color: white;
+    
+}
+main{
+    margin-bottom: 30px;
+}
+section{
+    height: 100vh;
+}
+footer{
+    background-color: #23272A;
+    min-height: 200px;
+    margin-top: 150px;
+    ;
 }
 
 /* UTILS */
@@ -37,6 +51,9 @@ header{
 }
 .text-right{
     text-align: right;
+}
+.text-left{
+    text-align: left;
 }
 #logo{
     vertical-align: middle;
@@ -77,6 +94,9 @@ header{
 .btn.btn-clear:hover{
     color: blue;
 }
+.btn.btn-dark:hover{
+    color: blue;
+}
 .btn-small{
   padding: 10px 15px;  
 }
@@ -84,12 +104,24 @@ header{
     padding: 20px 25px;
     
 }
-
+.btn-dark{
+    background-color:#23272A;
+    color: white;
+}
+.btn-violet{
+    background-color: #8EA1E1;
+    color: white;
+}
+.btn.btn-violet:hover{
+    color: blue;
+}
+/* JUMB */
 .jumbatron{
     min-height: 600px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     position: relative;
+    margin-bottom: 90px;
 }
 .jumbatron .contain{
     position: absolute;
@@ -99,10 +131,45 @@ header{
     
 }
 .jumbatron h1{
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 30px;
 }
 .jumbatron p{
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
+
+/* MAIN */
+.block{
+    float: left;
+}
+.col-img{
+    width: 60%;
+}
+.col-description{
+    width: 40%;
+}
+.main-content{
+    margin-top: 50px;
+}
+.container h2{
+    font-size: 60px;
+    margin: 35px 0;
+    font-weight: bold;
+}
+.container h3{
+    font-size: 30px;
+    margin: 35px 0;
+    font-weight: bold;
+    display: inline-block;
+}
+.container p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.star{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* footer */
